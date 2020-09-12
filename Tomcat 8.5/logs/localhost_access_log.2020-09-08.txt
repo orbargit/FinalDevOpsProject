@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/config/ HTTP/1.1" 200 6891
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/images/docs-stylesheet.css HTTP/1.1" 200 6082
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/images/tomcat.png HTTP/1.1" 200 5103
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/images/fonts/fonts.css HTTP/1.1" 200 1996
+0:0:0:0:0:0:0:1 - - [08/Sep/2020:00:17:04 +0300] "GET /docs/images/fonts/OpenSans400.woff HTTP/1.1" 200 21956
