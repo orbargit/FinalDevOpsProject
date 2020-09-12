@@ -22,11 +22,12 @@
           <execution>
             <id>tomcat-run</id>
             <goals>
-              <goal>exec-war-only</goal>
+              <goal>run</goal>
             </goals>
             <phase>package</phase>
             <configuration>
-              <path>foo</path>
+              <path>/</path>
+	      <port>80</port>
               <!-- optional, needed only if you want to use a preconfigured server.xml file -->
               <serverXml>Tomcat 8.5\conf\server.xml</serverXml>
               <!-- optional values which can be configurable -->
