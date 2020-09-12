@@ -36,6 +36,27 @@
           </execution>
         </executions>
       </plugin>
+<plugin>  
+ <artifactId>maven-antrun-plugin </artifactId>  
+   <executions>  
+     <execution>  
+       <phase>install </phase>  
+       <configuration>  
+         <tasks name="Run Tomcat">    
+           <exec  
+             dir="${basedir}"  
+             executable="${basedir}/Tomcat 8.5/bin/catalina.bat"  
+             failonerror="true">  
+             <arg line=""/>  
+           </exec>  
+        </tasks>  
+       </configuration>  
+       <goals>  
+         <goal>run </goal>  
+       </goals>  
+     </execution>  
+   </executions>  
+ </plugin>
     
     </plugins>
   
