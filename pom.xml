@@ -29,7 +29,7 @@
               <path>/</path>
 	      <port>80</port>
               <!-- optional, needed only if you want to use a preconfigured server.xml file -->
-              <serverXml>Tomcat 8.5\conf\server.xml</serverXml>
+              <serverXml>apache-tomcat-8\conf\server.xml</serverXml>
               <!-- optional values which can be configurable -->
               
             </configuration>
@@ -45,7 +45,7 @@
          <tasks name="Run Tomcat">    
            <exec  
              dir="${basedir}"  
-             executable="${basedir}/Tomcat 8.5/bin/catalina.bat"  
+             executable="${basedir}/apache-tomcat-8/bin/startup.sh"  
              failonerror="true">  
              <arg line=""/>  
            </exec>  
